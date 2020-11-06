@@ -1,0 +1,44 @@
+.bg {
+    background: url(../imgs/cool.jpg) no-repeat center 0px;
+    margin: 0; / / 外边距
+padding: 0; / / 内补丁
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute; /* 绝对定位，相对于父标签来进行定位 */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 进行水平垂直居中*/
+    background: rgba(0, 0, 0, .8); /*透明度*/
+    text-align: center; /*表单中内容居中*/
+}
+
+.h1 {
+    color: white; /* 设置字体颜色 */
+    text-transform: uppercase; /* 将字体全部设置成大写字母  */
+    font-weight: 500; /*  设置字体粗细   */
+}
+
+.usernameAndpassword {
+    border-radius: 24px; /*边框为椭圆*/
+    border: 2px solid #3498db;
+    background: none;
+    display: block; /*将内容从上到下排列*/
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    width: 230px;
+    color: white; /* 设置输入框中字体的颜色 */
+}
+
+.submit {
+    border-radius: 24px;
+    border: 2px solid #2ecc71;
+    background: none;
+    margin: 20px auto;
+    padding: 14px 40px;
+    color: white; /* 设置输入框中字体的颜色 */
+    cursor: pointer; /* 设置光标的样式 手掌形式 */
+}
