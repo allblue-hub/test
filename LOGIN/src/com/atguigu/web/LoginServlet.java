@@ -14,4 +14,8 @@ public class LoginServlet extends HttpServlet {
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("/Login_success/login_success.html");
         requestDispatcher.forward(req,resp);
     }
+ @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        this.doGet(req,resp);
+    }
 }
